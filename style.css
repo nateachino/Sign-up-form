@@ -1,0 +1,48 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+}
+
+#top-text {
+  margin-bottom: 0;
+}
+#bot-part {
+  margin-top: 0;
+}
+
+.form-p-wrap {
+  margin-top: 3rem;
+}
+
+.wrap {
+  background-color: white;
+  padding-left: 48px;
+}
+
+form {
+  display: flex;
+  height: 300px;
+}
+
+.form-wrapper {
+  display: flex;
+  gap: 68px;
+}
+
+.top-wrapper {
+  padding-left: 48px;
+}
+
+.bottom-wrapper {
+  padding-left: 48px;
+}
