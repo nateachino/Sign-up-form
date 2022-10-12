@@ -36,7 +36,8 @@ form {
 
 .form-wrapper {
   display: flex;
-  gap: 68px;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .top-wrapper {
@@ -45,4 +46,20 @@ form {
 
 .bottom-wrapper {
   padding-left: 48px;
+}
+
+label{
+  font-size: .75rem;
+}
+
+.form-wrapper>div{
+  display: flex;
+  flex-direction: column;
+}
+.form-wrapper>div>input{
+  height: 30px;
+}
+
+img{
+  width: 30vw;
 }
