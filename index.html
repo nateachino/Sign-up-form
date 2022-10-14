@@ -48,38 +48,45 @@
               <div class="form-wrapper">
                 <div id="first">
                   <label for="first-name">First Name</label>
-                  <input type="text" id="first-name" name="first_name" />
+                  <input
+                    type="text"
+                    id="first-name"
+                    name="first_name"
+                    required
+                  />
                 </div>
 
                 <div id="last">
                   <label for="last-name">Last Name</label>
-                  <input type="text" id="last-name" name="last_name" />
+                  <input type="text" id="last-name" name="last_name" required />
                 </div>
 
                 <div id="email">
                   <label for="email">Email</label>
-                  <input type="text" id="email" name="email" />
+                  <input type="email" id="email" name="email" required />
                 </div>
 
                 <div id="phone">
                   <label for="phone">Phone Number</label>
-                  <input type="text" id="phone" name="phone" />
+                  <input type="text" id="phone" name="phone" minlength="10" maxlength="10" required />
                 </div>
 
                 <div id="pw">
                   <label for="pass">Password </label>
-                  <input type="password" id="pass" name="pass" />
+                  <input type="password" id="pass" name="pass" minlength="8" required />
                 </div>
 
                 <div id="confirm-pass">
                   <label for="first-name">Confirm Password</label>
-                  <input type="password" id="confirm" name="confirm" />
+                  <input type="password" id="confirm" name="confirm" minlength="8"  required />
                 </div>
               </div>
-            </form>
-          </div>
-          <div class="bottom-wrapper">
+
+            </div>
             <button type="submit">Create Account</button>
+            </form>
+
+          <div class="bottom-wrapper">
             <p>
               Already have an account?<span> <a href="..">Login</a></span>
             </p>
